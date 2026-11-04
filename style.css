@@ -1,7 +1,69 @@
-h1 {
-  font-family: Poppins, sans-serif;
-  font-size: 36px;
-  color: #c44a4a;
+body {
+  font-family: times, sans-serif;
+  background: #fdca99;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../images/Walking-Around-Hoi-An.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(241, 229, 203);
   text-align: center;
-  margin-top: 50px;
+  padding: 200px 0;
+}
+header h1 {
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 30px 0;
+}
+header h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+}
+header h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 16px 32px;
+  line-height: 1.2;
+  background-color: #f5873e;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+header a:hover {
+  background-color: #f89859;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 15px;
+  }
 }
